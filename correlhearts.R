@@ -3,7 +3,7 @@ library(jasmines)
 library(purrr)
 library(ggplot2)
 
-ca_pal <- palette_manual(c("#acc940", "#96c246", "#78a972", "#6fa080", "#508994", "#3665a3", "#3c61aa", "#2d3b5a", "#bcd259"))
+ca_pal <- palette_manual(c("#acc940", "#bcd259","#96c246", "#78a972", "#6fa080", "#508994", "#3665a3", "#3c61aa", "#2d3b5a"))
 cax_pal <- palette_manual(c("#f04451", "#e14e4c", "#e35564", "#b65976", "#906289", "#7b6490", "#5b669d", "#3c61aa", "#3665a3", "#254e90", "#3c3c3b"))
 set.seed(2016)
 seeds <- sample(1:1000, 10)
