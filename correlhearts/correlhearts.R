@@ -19,7 +19,7 @@ walk(seeds, function(seed) {
       background = "#3c3c3b"
     ) %>% 
     style_overlay(border = "white") +
-    ggsave(paste0("cax/", seed, ".png"), width = 8, height = 8)
+    ggsave(here::here("correlhearts", "cax", seed, ".png"), width = 8, height = 8)
 })
 
 
